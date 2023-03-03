@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    /* width: 100%;
+    height: 70px; */
+}
+
+.right {
+    width: 50%;
+    height: 800px;
+}
+
+.left {
+    width: 50%;
+    height: 800px;
+    background-color: rgb(127, 206, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* For left texts */
+
+.left-text {
+    /* background-color: bisque; */
+    width: 70%;
+    height: 90%;
+}
+
+.left-head-text {
+    margin-top: 0%;
+}
+
+.left-body-text {
+    margin-top: 200px;
+    letter-spacing: 5px;
+}
+
+.body-h1-1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-h1-2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 5px;
+}
+
+.left-body-text h5 {
+    color: gray;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+.left-button {
+    position: absolute;
+    left: 110px;
+    top: 500px;
+}
+
+.left-button button {
+    border-radius: 15px;
+    border-color: navajowhite;
+    padding: 5px;
+    background-color: beige;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+/* For right texts */
+
+.right-text {
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-text h5 {
+    padding: 0px 19px;
+    color: rgb(56, 56, 56);
+    font-size: larger;
+}
+
+
+/* For four boxes */
+
+#boxes {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.box {
+    width: 25%;
+    margin: 6px;
+    padding: 50px 40px;
+}
+
+.box h3 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.box h5 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.box-1 {
+    background-color: gray;
+}
+
+.box-2 {
+    background-color: rgb(86, 165, 167);
+}
+
+.box-3 {
+    background-color: rgb(76, 71, 128);
+}
+
+.box-4 {
+    background-color: rgb(107, 174, 66);
+}
+
+.stik {
+    width: 30px;
+    height: 20px;
+}
+
+
+/* For woman section */
+
+.woman-text {
+    position: absolute;
+    top: 1400px;
+    right: 100px;
+    width: 600px;
+    line-height: 40px;
+}
+
+.woman-text h2 {
+    margin-top: 80px;
+}
+
+
+/* For Furniture Collection */
+
+#collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+/* For collection photos */
+
+#coll-photos {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.row1 {
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+}
+
+.row-3photo {
+    width: 40%;
+}
+
+#coll-photos-2 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.row2 {
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.row2-3photo {
+    width: 40%;
+}
+
+
+/* For Tech Stats */
+
+#tech-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 30px;
+    letter-spacing: 5px;
+    background-color: rgb(165, 247, 255);
+}
+
+.number-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(165, 247, 255);
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 60px;
+    letter-spacing: 5px;
+    /* justify-content: center; */
+}
+
+.color {
+    background-color: rgb(165, 247, 255);
+}
+
+
+/* For Customer */
+
+#customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Courier New", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif monospace;
+    margin: 50px;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#cust-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+}
+
+.box {
+    width: 25%;
+    margin: 10px;
+    padding: 20px 30px;
+}
+
+.box h3 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.box h5 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.cust-box-1 {
+    background-color: gray;
+}
+
+.cust-box-2 {
+    background-color: rgb(86, 165, 167);
+}
+
+.cust-box-3 {
+    background-color: rgb(76, 71, 128);
+}
+
+.stik {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.author {
+    width: 100px;
+    margin-right: 50px;
+    letter-spacing: 10px;
+}
+
+footer {
+    background-color: rgb(246, 239, 239);
+    /* height: 300px; */
+}
